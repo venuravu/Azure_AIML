@@ -10,6 +10,6 @@ inputs:
     path: azureml:diabetes-folder:1 
   reg_rate: 0.01
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
-compute: 
+compute: cpu-cluster
 experiment_name: pipeline
 description: This pipeline job is created from cli
